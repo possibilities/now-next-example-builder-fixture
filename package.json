@@ -1,0 +1,16 @@
+{
+  "name": "now-next-example-builder-fixture",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard",
+    "lint": "standard",
+    "lint:watch": "nodemon --quiet --exec 'standard && echo linting: OK' --watch '**/*.js' --ignore node_modules"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10",
+    "standard": "^12.0.1"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "name": "experiment",
+  "public": true,
+  "builds": [
+    { "src": "example/next.config.js", "use": "now-next-example-builder" }
+  ]
+}
